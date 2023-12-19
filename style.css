@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    bottom: 0;
+} 
+body {
+    background: white;
+}
+header {
+    background: #ffff00da;
+    color: white;
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 55px;
+}
+p {
+    font-size: 25px;
+}
+ul {
+    margin: 35px;
+    font-size: 35px;
+}

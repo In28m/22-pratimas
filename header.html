@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Header</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module">
+    import { addHeaderToApp } from './header.js'
+    import { addCarsToApp } from './cars.js'
+    const appElement = document.getElementById('app')
+    addHeaderToApp(appElement)
+    addCarsToApp(appElement)
+  </script>
+
+<script src="header.js" type="module"></script>
+<script src="cars.js" type="module"></script>
+</body>
+</html>
+
